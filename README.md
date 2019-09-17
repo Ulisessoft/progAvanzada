@@ -1,3 +1,3 @@
 # progAvanzada
 ## Introduccion
-Python es un  lenguaje  tipo indepen 
+Python es un  lenguaje  tipo independiente
