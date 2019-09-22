@@ -1,0 +1,15 @@
+# Crear un programa que lea el largo y el ancho de un campo de cultivo 
+# introducir por el usuario y despliegue el area del campo en acres.
+# 1 acre = 4046.86 metros cuadrados, 0.000247105 acres = 1 metro
+# Ejemplo:
+# Introduce el largo del campo en metros: 10.5
+# Introduce el ancho del campo en metros: 12.8
+
+# El area del campo es de 0.0331 acres.
+
+nombre = input('Cual es tu nombre?: ')
+print('Hola bienvenido ', nombre)
+Largo = float(input('Indique lo largo que es el campo en metros: '))
+ancho = float(input('Indique lo ancho que es el campo en metros: '))
+
+print('El area de la habitacion total es ', (Largo*ancho)*(0.000247), 'Acres')
