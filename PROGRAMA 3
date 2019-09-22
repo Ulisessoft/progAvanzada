@@ -1,0 +1,16 @@
+# Escriba un programa que le pregunte al usuario el largo y el ancho de una habitacion. 
+# Una vez que los valores han sido leidos, su programa debe calcular y desplegar el area de la habitacion. 
+# El largo y ancho ddebe ser introducido con punto flotante (Decimal). 
+# Incluya las unidades (metros) en su mensaje de entrada y salida.
+
+# Ejemplo:
+# Ingrea el largo en metros de la habitacion: 3.3
+# Ingresa el ancho en metros de l habitacion: 4.8
+# El area de la habitacion total es: 12.24 metros cuadrados.
+
+
+nombre = input('Cual es tu nombre?: ')
+print('Hola bienvenido ', nombre)
+Largo = float(input('Indique lo largo que es la habitacion: '))
+ancho = float(input('Indique lo ancho que es la habitacion: '))
+print('El area de la habitacion total es ', Largo*ancho, 'metros cuadrados')
