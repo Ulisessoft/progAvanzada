@@ -22,6 +22,7 @@ https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%201
 
 ## EJERCICIO 2.
 Como segundo ejercicio  nos indico que realizaramo no solo imprimir alguna palabra si no que el mismo programa te realizara una pregunta muy sencilla como lo fue nuestro nombre, aqui aprendimo a utilizar el "print" y el comando "imput"  con los cuales  logramos conclulirlo.
+
 https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%202
 
 ## EJERCICIO 3.
