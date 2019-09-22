@@ -1,0 +1,11 @@
+# Un vendedor de una pagina de abarrotes en linea vende dos tipos de cajas de cereal.
+# Conflakes de 750gr y Trix sw 500gr. Escriba un programa que lea el numero de cajas
+# de conflakes y cajas de Trix, cuyo numero debe ser introducido por el usuario. Despues
+# su programa debe de calcular y mostrar el total del peso (en kilogramos) del envio.
+
+ConFlakes = int(input('Ingrese la cantidad de cajas ConFlakes: '))
+Trix = int(input('Ingrese la cantidad de cajas Trix: '))
+
+
+Pesos = (ConFlakes) * (750 / 1000) + (Trix) * (500 / 1000)
+print('El peso total es: ', Pesos, 'Kg') 
