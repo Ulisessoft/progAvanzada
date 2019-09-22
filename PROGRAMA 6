@@ -1,0 +1,31 @@
+# Hacer un programa en el que el usuario introduzca el nombre 
+# de la comida que ordeno en un restaurante y su presio. 
+# Despues su programa debe calcular el subtotal, el iva, 
+# y la propina de toda la cuenta. La salida del programa debe 
+# parese a un tiket de resturante. Use un iva de 16% y una 
+# propina del 15% del subtotal. Los valores numericos deben 
+# tener 2 decimales.
+
+Bienvenida = input('Bienvenido , Como te llamas: ')
+print('Gusto en conocerte', Bienvenida)
+Comida1 = input('Por favor introdusca el nombre de la comida: ')
+valor1 = float(input('Introdusca el valor de la comida 1:  '))
+Comida2 = input('Por favor introdusca el nombre de la comida: ')
+valor2 = float(input('Introdusca el valor de la comida 2:  '))
+Comida3 = input('Por favor introdusca el nombre de la comida: ')
+valor3 = float(input('Introdusca el valor de la comida 3:  '))
+Comida4 = input('Por favor introdusca el nombre de la comida: ')
+valor4 = float(input('Introdusca el valor de la comida 4:  '))
+Comida5 = input('Por favor introdusca el nombre de la comida: ')
+valor5 = float(input('Introdusca el valor de la comida 5:  '))
+
+Subtotal = (valor1 + valor2 + valor3 + valor4 + valor5)
+Iva = (Subtotal)*(0.16)
+Propina = (Subtotal)*(0.15)
+Total = (Iva + Propina + Subtotal)
+
+print('\n Subtotal:            $', '%.2f' % Subtotal )
+print('\n Iva:                 $', '%.2f' % Iva )
+print('\n Propina:             $', '%.2f' % Propina )
+print('\n ----------------------')
+print('\n Total:               $', '%.2f' % Total )
