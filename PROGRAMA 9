@@ -1,0 +1,15 @@
+# Interes compuesto
+# Usted acaba de abrir una nueva cuenta de ahorros con el cual gana el 4% de Interes
+# El interes que usted genera es pagado al final del año, y es agregado al balance de la cuenta de banco
+# Escriba un programa que comienze por leer la cantidad de dinero depositada en la cuenta
+# (el usuario introduce est cantidad). El programa debe de calcular y mostrar la cantidad de dinero en la
+# cuenta despues del priemer, segundo y tercer año. Despliegue las cantidades de dinero redondeados a decimales.
+
+Deposito = float(input ('Por favor, indique la cantidad de su deposito: '))
+Primer = ( Deposito * 0.04 ) + ( Deposito )
+Segundo = ( Primer * 0.04 + Primer )
+Tercer = ( Segundo * 0.04 + Segundo )
+
+print('El total de su cuenta de ahorros es: $', '%.2f' % Primer )
+print('El total de su cuenta de ahorros es: $', '%.2f' % Segundo )
+print('El total de su cuenta de ahorros es: $', '%.2f' % Tercer )
