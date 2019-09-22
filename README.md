@@ -22,24 +22,32 @@ https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%201
 
 ## EJERCICIO 2.
 Como segundo ejercicio  nos indico que realizaramo no solo imprimir alguna palabra si no que el mismo programa te realizara una pregunta muy sencilla como lo fue nuestro nombre, aqui aprendimo a utilizar el "print" y el comando "imput"  con los cuales  logramos conclulirlo.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%202
 
 ## EJERCICIO 3.
 En este tercer ejercicio el problema supuesto fue que se queria determinar el area de una habitacion pero los valores con los que se tendria que hacer los tenia que colocar el usuario, ademas de utilizar los comandos anteriores "input" y "print" utilizamos uno nuevo que se reconocio como "float"  el cual nos permitia realizar la operacion pero con decimales algo que en los primeros ejercicion no habiamos realizado.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%203
 
 ## EJERCICIO 4.
 En el siguiente ejercicio nos indicaba que el programa realizara el area de un campo de cultivo, siendo muy similar al ejercicio anterior solo que en este caso el resultado tendria que ser en "ACRES" por lo que analisando llegue a la conclusion de que se necesitaba realizar la operacion solo que realizando una conversion, por lo tanto al final del programa colocamos lo que seria la operacion de conversion hasta conseguir el resultado.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%204
 
 ## EJERCICIO 5.
 Nos pedia el ejercicio reaizar una suma de la cantidad de botellas que entraban y ademas deberia proporcionar el programa la cantidad de rembolso que se entregaria por el total de las botellas, aqui seguimo susando los comandos "input" , "print" y el "float" ademas para conseguirlo realice en la ultima linea de programacion una suma y dos multiplicaciones.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%205
 
 ## EJERCICIO 6.
 El ejercicio nos pedia que el programa brindara una seccion donde el usuario indicaba el alimento que estaria ordenando ademas de su presio, en total eran 5 ordenes y el mismo programa ademas deberia mostrarnos el total de lo que se ordeno, ademas del IVA y la PROPINA, mostrandolo al final como si fuese un tiket de restaurante. Aqui utilizamos un comando nuevo que nos permitia solo mostrar dos decimales nada mas, evitando mostrar mas dijitos de los necesarios el cual era "%.2f".
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%206
 
 ## EJERCICIO 7.
 Como ejercicio siguiente  el profesor nos mostro una operacion matematica que consistia en imprimir la cantidad de numeros enteros desde el primero hasta  el definido, en realidad no fue complicado de realizar ya que con los ejercicios anteriores me guie de la mejor forma para realizarlo.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%207
 
 ## EJERCICIO 8.
 Teniamos que realizar un programa donde no sdebia leer el numero de cajas de dos tipos de conflakes uno de 750gr y otro de 500gr, ademas de eso el valor total no lo deberia de indicar en kilogramos, al principio no me quedaba por que colocaba mal la numeracion dejandola en gramos cuando en realidad debi de haber hecho la conversion o simplemente agregarle otro cero a la formula que coloque, todos los datos tenian que ser indicados por el susuario.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%208
 
 ## EJERCICIO 9.
 En este noveno ejercicio teniamos que lograr que el programa realizara un historial de depositos por 3 años ya que el usuario no retiro ninguna cantidad se le agregaba el 4% de interes al finalizar el año,  entonces debiamos de mostar el total del ahorro acumulado ya con los intereses acumulados de cada año y el total  por los tres años que se realizo el ahorro, ademas no deberia de pasar dos decimales al mostarno los resultados.
+https://github.com/Ulisessoft/progAvanzada/blob/master/PROGRAMA%209
