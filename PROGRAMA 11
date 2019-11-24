@@ -1,0 +1,4 @@
+
+MPG = float(input('Cantidad de millas por galon: '))
+Conversion = (235.215/(MPG))
+print('La eficiencia de conbustible en unidades Mexicana:  %.2f' % Conversion)
