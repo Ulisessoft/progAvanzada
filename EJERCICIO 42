@@ -1,0 +1,24 @@
+
+frequencia = float(input('Introsuce la frecuencia en Hz:  '))
+
+nota = ""
+
+if frequencia > 261.63 - 1 and frequencia < 261.63 + 1:
+	nota = "C"
+elif frequencia > 293.66 - 1 and frequencia < 293.66 + 1:
+	nota = "D"
+elif frequencia > 329.63 - 1 and frequencia < 329.63 + 1:
+	nota = "E"
+elif frequencia > 349.23 - 1 and frequencia < 349.23 + 1:
+	nota = "F"
+elif frequencia > 392.00 - 1 and frequencia < 392.00 + 1:
+	nota = "G"
+elif frequencia > 440.00 - 1 and frequencia < 440.00 + 1:
+	nota = "A"
+elif frequencia > 493.88 - 1 and frequencia < 493.88 + 1:
+	nota = "B"
+	
+if nota == "":
+	print('No es una nota conocida')
+else:
+	print('Esta es una nota',(nota))
