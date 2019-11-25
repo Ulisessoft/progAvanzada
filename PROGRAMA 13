@@ -1,0 +1,27 @@
+
+centavo = int(input('Introduce los centavos: '))
+
+
+centa_toon = 200
+centa_loon = 100
+centa_cuart = 25
+centa_diez = 10
+centa_cinco = 5
+penique = centavo
+
+print('',centavo // centa_toon, 'toonie')
+centavo = centavo % centa_toon
+
+print('',centavo // centa_toon, 'loonie')
+centavo = centavo % centa_loon
+
+print('',centavo // centa_cuart, 'cuartos')
+centavo = centavo % centa_cuart
+
+print('',centavo // centa_diez, 'diez centavos')
+centavo = centavo % centa_diez
+
+print('',centavo // centa_cinco, 'cinco centavos')
+centavo = centavo % centa_cinco
+
+print('', penique, 'peniques')
