@@ -1,0 +1,33 @@
+
+minutos = int(input("Introduce el numero de minutos: "))
+mensajes = int(input("Introduce el numero de mensajes de texto: "))
+
+base = 15.00
+print('\n Cargo base: $%.2f'%base,)
+
+if minutos >50:
+    min = minutos-50
+    add_min = min *0.15
+    print('\n costo adicional por minutos: $%.2f' %add_min)
+elif minutos:
+    add_min = 0 
+
+
+if mensajes >50:
+    minu = mensajes-50
+    add_men = minu * 0.25
+    print('\n costo adicional por mensajes: $%.2f'%add_men)
+elif mensajes:
+    add_men = 0 
+
+
+cargo = 0.44
+print('\n Cargo del 911: $%.2f'%cargo)
+
+subtotal = base+add_min+add_men+cargo
+
+impuesto = subtotal * 0.5
+print('\n El impuesto es: $%.2f'%impuesto)
+
+total= subtotal+impuesto
+print('\n Total: $%.2f'%total)
