@@ -1,0 +1,16 @@
+
+humano = int(input("Please enter the age of a dog in human years: "))
+
+
+
+	
+if humano > 0:
+	perro = humano * 10.5
+elif humano <= 2:
+	
+	perro = 21 + (humano-2) * 4
+
+if humano == 0:
+	print("Please enter a positive integer.")
+else:
+	print("The dog is ",(perro))
