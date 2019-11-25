@@ -1,0 +1,19 @@
+
+matricula = input("Introduce la matricula: ")
+
+estilo = ""
+
+if matricula[0] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ" and matricula[1] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ" and matricula[2] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ":
+	if matricula[3] in "0123456789" and matricula[4] in "0123456789" and matricula[5] in "0123456789":
+		estilo = "viejo"
+
+elif matricula[0] in "0123456789" and matricula[1] in "0123456789" and matricula[2] in "0123456789" and matricula[3] in "0123456789":
+	if matricula[4] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ" and matricula[5] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ" and matricula[6] in "ABCDEFGHIJKLMNOPQRSTUVQRXTUVWXYZ":
+		estilo = "nuevo"
+		
+if estilo == "viejo":
+	print("Esta es una placa de estilo antiguo.")
+elif estilo == "nuevo":
+	print("Esta es una placa de estilo nuevo.")
+else:
+	print("Matrícula no válida ingresada.")
