@@ -1,0 +1,9 @@
+
+aire = float(input('Introudce la temperatura del aire: '))
+viento = float(input('Introduce la velocidad del viento: '))
+
+
+ist = 13.12 + (0.6215*aire) - (11.37*(viento**0.16)) + (0.3965*aire*(viento**0.16))
+
+
+print('El IST (Indice de sencaion termica) es ', round(ist))
