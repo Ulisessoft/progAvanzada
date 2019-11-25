@@ -1,0 +1,19 @@
+
+valor = float(input("Introduce la calificacion del empleado: "))
+
+Rendimiento = ""
+
+if valor == 0.0:
+	Rendimiento = "Rendimiento inaceptable"
+elif valor == 0.4:
+	Rendimiento = "Rendimiento aceptable"
+elif valor >= 0.6:
+	Rendimiento = "Rendimiento meritorio"
+
+if Rendimiento != "":
+	print("De acuerdo a al escala el empleado ha demostrado tener: ",(Rendimiento))
+else:
+	print("Valor introducido no válido (El valor es 0.0, 0.4 o mayor que 0.6)")
+if valor==0.0 or valor== 0.4 or valor >=0.6:
+    monto = 2400 * valor
+    print('El monto total del aumento es: ', monto)
