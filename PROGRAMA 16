@@ -1,0 +1,10 @@
+
+from math import pi
+
+r = float(input('Introduce el radio: '))
+
+area = pi * r**2
+vol = (4/3) * (pi * r**3)
+
+print("El area de un circulo es:     %.3f." %(area),'unidades cuadradas')
+print("El volumen de un circulo es: %.3f." %(vol),'unidades al cubo')
