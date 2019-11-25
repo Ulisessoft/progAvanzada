@@ -1,0 +1,16 @@
+
+ano =  int(input("Introduce el año: "))
+
+ano_bisi = False
+
+if ano % 400 == 0:
+	ano_bisi = True
+elif ano % 100 == 0 and not ano % 400 == 0:
+	ano_bisi = False 
+elif ano % 4 == 0 and not ano % 100 == 0 and not ano % 400 == 0:
+	ano_bisi = True 
+
+if ano_bisi:
+	print("Este es un año bisiesto")
+else:
+	print("Este no es un año bisiesto")
