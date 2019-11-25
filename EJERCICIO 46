@@ -1,0 +1,30 @@
+
+mes =  input ( ' Introducir el mes: ' )
+dia =  int ( input ( ' Introducir el dia: ' ))
+
+si mes ==  ' enero '  o mes ==  ' febrero ' :
+    temporada =  ' invierno '
+elif mes ==  ' marzo '  y dia < 20 :
+    temporada =  ' invierno '
+elif mes ==  ' marzo '  y dia > = 21 :
+    temporada =  ' primavera '
+elif mes ==  ' abril '  o mes ==  ' mayo ' :
+    temporada =  ' primavera '
+elif mes ==  ' junio '  y dia < 20 :
+    temporada =  ' primavera '
+elif mes ==  ' junio '  y dia > = 21 :
+    temporada =  ' verano '
+elif mes ==  ' julio '  o mes ==  ' agosto ' :
+    temporada =  ' verano '
+elif mes ==  ' septiembre '  y dia < 21 :
+    temporada =  ' otono '
+elif mes ==  ' septiembre '  y dia > = 22 :
+    temporada =  ' otono '
+elif mes ==  ' octubre '  o mes ==  ' noviembre ' :
+    temporada =  ' otono '
+elif mes ==  ' diciembre '  y dia < 20 :
+    temporada =  ' ivierno '
+elif mes ==  ' Diciembre '  y de diámetro > = 21 :
+    temporada =  ' invierno '
+
+print (mes, dia, ' es en ' , temporada)
