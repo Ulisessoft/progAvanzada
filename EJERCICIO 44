@@ -1,0 +1,16 @@
+
+fecha = input('Introduce el mes: ')
+dia = int(input('Introduce el dia: '))
+
+
+celebracion = ''
+
+if fecha ==  'enero' and dia == 1:
+    print('La celebracion es Año Nuevo')
+elif fecha == 'julio' and dia == 1:
+    print('La celebracion es Dia de Canada')
+elif fecha == 'diciembre' and dia == 25: 
+    print('La celebracion es Navidad')
+
+else:
+    print('La fecha es incorrecta')
