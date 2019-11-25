@@ -1,0 +1,27 @@
+
+posi = input('Introduce la posicion en el tablero: ')
+
+columna = posi[0].lower()
+fila = int(posi[1])
+
+if columna in "aceg":
+	columnaempiezanegro = True
+else:
+	columnaempiezanegro = False
+	
+	
+if columnaempiezanegro:
+	if fila % 2 == 0:
+		blanco = True
+	else:
+		blanco = False
+else:
+	if fila % 2 == 0:
+		blanco = False
+	else:
+		blanco = True
+		
+if blanco:
+	print('La posicion es el cuadro blanco')
+else:
+	print('La posicion es el cuadro negro')
