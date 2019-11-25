@@ -1,0 +1,23 @@
+
+magnitud = float(input('Introduce la magniutd del terremoto: '))
+
+if magnitud < 2.0:
+	tipo = "Micro"
+elif magnitud >= 2.0 and magnitud < 3.0:
+	tipo = "Muy suave"
+elif magnitud >= 3.0 and magnitud < 4.0:
+	tipo = "Suave"
+elif magnitud >= 4.0 and magnitud < 5.0:
+	tipo = "Ligero"
+elif magnitud >= 5.0 and magnitud < 6.0:
+	tipo = "Moderado"
+elif magnitud >= 6.0 and magnitud < 7.0:
+	tipo = "Fuerte"
+elif magnitud >= 7.0 and magnitud < 8.0:
+	tipo = "Mayor"
+elif magnitud >= 8.0 and magnitud < 10.0:
+	tipo = "Grande"
+else:
+	tipo = "Meteorico"
+	
+print('Un terremoto de ',(magnitud), 'se considera', (tipo))
