@@ -1,0 +1,11 @@
+
+letra = input('Introduce una letra del abecedario: ')
+
+
+
+if letra in 'aeiou':
+	print('Esta letra es una vocal')
+elif letra == 'y':
+    print('A veces es una vocal y a veces una consonante')
+else:
+	print('Esta letra es una consonante')
