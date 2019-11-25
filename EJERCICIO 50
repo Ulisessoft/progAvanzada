@@ -1,0 +1,26 @@
+
+from math import sqrt
+
+a = float(input("Inserta el valor para a: "))
+b = float(input("Inserta el valor para b: "))
+c = float(input("Inserta el valor para c: "))
+
+discriminate = (b**2) - (4*a*c)
+
+if discriminate < 0:
+	print("Esta función cuadrática no tiene raíces reales.")
+	
+elif discriminate == 0:
+	print("Esta función cuadrática tiene una raíz real.")
+	
+	root = -b / 2*a 
+	
+	print("Raiz real: {}".format(root))
+	
+elif discriminate > 0:
+	print("Esta función cuadrática tiene dos raíces reales.")
+	
+	root1 = (-b + (sqrt(discriminate))) / (2*a)
+	root2 = (-b - (sqrt(discriminate))) / (2*a) 
+	
+	print("Raices reales son: {} or {}".format(root1, root2))
