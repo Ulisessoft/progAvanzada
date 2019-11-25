@@ -1,0 +1,10 @@
+
+pies =  int ( input ( ' Introducir la distancia en pies: ' ))
+
+millas = pies *  0.000189
+yardas = pasteles *  0.333333
+pulgadas = pies *  12
+
+print ( " \ n En millas:     % .6f . "    % (millas))
+imprimir ( " \ n Yardas In:     % .6f . "    % (Yardas))
+print ( " \ n En pulgadas: % .6f . "  % (pulgadas))
