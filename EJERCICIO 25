@@ -1,0 +1,24 @@
+
+d = 86400 
+
+h = 3600 
+
+m = 60 
+
+segundos = int(input('Introduce los segundos: '))
+
+
+
+
+dias = segundos / d
+segundos = segundos % d
+
+horas = segundos / h
+segundos = segundos % h
+
+minutos = segundos / m
+segundos = segundos % m
+
+
+
+print('\n %d:%02d:%02d:%02d.' %(dias, horas, minutos, segundos))
