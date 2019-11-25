@@ -1,0 +1,11 @@
+
+mes = input('Introdice en nombre del mes: ')
+
+
+
+if mes == "septiembre" or mes == "abril" or mes == "junio" or mes == "november":
+	print('Hay 30 dias en este mes')
+elif mes == "febrero":
+	print('Hay 28 o 29 dias en este mes')
+else:
+	print('Hay 31 dias en este mes')
