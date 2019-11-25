@@ -1,0 +1,11 @@
+
+from math import sqrt
+
+d = float(input('Insertar distancia en metros:                             '))                             
+V = float(input('Insertar velocidad inicial:                               '))
+
+g = 9.81 
+V1= V**2
+Vf = sqrt(V1+2*(g)*(d))
+
+print('La aceleracion final es:                                 %.2f' % Vf ,'m/s')
