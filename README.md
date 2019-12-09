@@ -336,3 +336,4 @@ Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y d
 
 ## EJERCICIO 61
 En este ejercicio usted creara un programa que calcule el promedio de una colección de valores insertados por el usuario, si el usuario introduce el valor cero el programa debe dejar de pedir valores y posteriormente, mostrar el promedio calculado.
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2061
