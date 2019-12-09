@@ -336,4 +336,357 @@ Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y d
 
 ## EJERCICIO 61
 En este ejercicio usted creara un programa que calcule el promedio de una colección de valores insertados por el usuario, si el usuario introduce el valor cero el programa debe dejar de pedir valores y posteriormente, mostrar el promedio calculado.
+
 https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2061
+
+## EJERCICIO 62
+Un supermercado está ofreciendo el 60% de descuento en una variedad de productos descontinuados. El supermercado quiere ayudar a sus clientes a determinar el precio reducido de su mercancía con una tabla impresa en los aparadores donde muestre los precios originales y los precios después de aplicarse el descuento. Escribe un programa que use un ciclo “while” para generar esa tabla, mostrando el precio original, el descuento y el nuevo precio para los productos de: 
+$4.95
+$9.95
+$14.95
+$19.95
+$24.95
+Los descuentos y los nuevos precios deben ser redondeados a dos decimale.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2062
+
+## EJERCICIO 63
+Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados centígrados que son múltiplos de 10 grados centígrados. Incluya encabezados apropiados en sus columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet. la fornula es fahrenheit = (celsius * 9/5) + 32.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2063
+
+## EJERCICIO 64
+El 4 de febrero de 2013 fue el último día en que Royal Canadian Mint distribuyó centavos. Ahora que los centavos se han eliminado, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se pagan en efectivo (las transacciones con tarjeta de crédito y débito se siguen cargando al centavo). Si bien los minoristas tienen cierta libertad en cómo lo hacen, la mayoría elige redondear al níquel más cercano. Escriba un programa que lea los precios del usuario hasta que se ingrese una línea en blanco. Muestre el costo total de todos los artículos ingresados en una línea, seguido del monto adeudado si el cliente paga con efectivo en una segunda línea. El monto adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una forma de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. Luego calcule el resto cuando este número de centavos se divide por 5. Finalmente, ajuste el total hacia abajo si el resto es menor que 2.5. De lo contrario, ajuste el total hacia arriba.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2064
+
+## EJERCICIO 65
+Escribe un programa que calcule el perímetro de un polígono. 
+Comience leyendo los valores x e y para el primer punto en el perímetro del polígono del usuario. 
+Luego, continúe leyendo pares de valores x e y hasta que el usuario ingrese una línea en blanco para la Coordenada x. 
+Cada vez que lea una coordenada adicional, debe calcular la distancia al punto anterior y agregarla al perímetro. 
+Cuando se ingresa una línea en blanco para la coordenada x, 
+su programa debe agregar la distancia desde el último punto de regreso al primer punto al perímetro. 
+Entonces debería mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, 
+con la entrada del usuario en negrita:
+Ingrese la parte x de la coordenada: 0
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 1
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 0
+Ingrese la parte y de la coordenada: 1
+Ingrese la parte x de la coordenada: (en blanco para salir):
+El perímetro de ese polígono es 3.414213562373095
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2065
+
+## EJERCICIO 66
+El ejercicio 51 incluyó una tabla que muestra la conversión de calificaciones de letras a puntos de calificación en una institución académica particular. En este ejercicio calculará el promedio de calificaciones de un número arbitrario de calificaciones de letras ingresadas por el usuario. El usuario ingresará una línea en blanco para indicar que se han proporcionado todas las calificaciones. Por ejemplo, si el usuario ingresa A, seguido de C +, seguido de B, seguido de una línea en blanco, su programa debe informar un promedio de calificaciones de 3.1.Puede encontrar útil su solución para el ejercicio 51 al completar este ejercicio. Su programa no necesita hacer ninguna comprobación de errores. Se puede suponer que cada valor ingresado por el usuario siempre será una calificación de letra válida o una línea en blanco.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/EJERCICIO%2066
+
+## EJERCICIO 67
+Un zoológico en particular determina el precio de admisión según la edad del huésped. Los huéspedes de 2 años de edad y menores son admitidos sin cargo. Los niños entre 3 y 12 años cuestan $ 14.00. Las personas mayores de 65 años y más cuestan $ 18.00. La entrada para todos los demás huéspedes es de $ 23.00.Cree un programa que comience leyendo las edades de todos los invitados en un grupo del usuario, con una edad ingresada en cada línea. El usuario ingresará una línea en blanco para indicar que no hay más invitados en el grupo. Luego, su programa debe mostrar el costo de admisión para el grupo con un mensaje apropiado. El costo debe mostrarse con dos decimales.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio67.py
+
+## EJERCICIO 68
+Un bit de paridad es un mecanismo simple para detectar errores en los datos transmitidos a través de una conexión no confiable, como una línea telefónica. La idea básica es que se transmite un bit adicional después de cada grupo de 8 bits para que se pueda detectar un error de un solo bit en la transmisión.Los bits de paridad se pueden calcular para paridad par o paridad impar. Si se selecciona paridad par, se elige el bit de paridad que se transmite de modo que el número total de un bit transmitido (8 bits de datos más el bit de paridad) sea par. Cuando se selecciona paridad impar, se elige el bit de paridad para que el número total de un bit transmitido sea impar.Escriba un programa que calcule el bit de paridad para grupos de 8 bits ingresados por el usuario usando paridad par. Su programa debe leer cadenas que contengan 8 bits hasta que el usuario ingrese una línea en blanco. Después de que el usuario ingrese cada cadena, su programa debe mostrar un mensaje claro que indique si el bit de paridad debe ser 0 o 1. Muestre un mensaje de error apropiado si el usuario ingresa algo distinto de 8 bits.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio68.py
+
+## EJERCICIO 69
+El valor de π se puede aproximar mediante las siguientes series infinitas:
+Escriba un programa que muestre 15 aproximaciones de π. La primera aproximación debe utilizar solo el primer término de la serie infinita. Cada aproximación adicional mostrada por su programa debe incluir un término más en la serie, por lo que es una mejor aproximación de π que cualquiera de las aproximaciones mostradas anteriormente.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio69.py
+
+## EJERCICIO 70
+Uno de los primeros ejemplos de encriptacion fue usado por julio cesar.Julio cesar necesitaba el enviar instrucciones escritas a sus generales,Pero el no queria que sus enemigos conocieran de sus planes en caso de que el mensaje fuese interceptado.Como resultado el desarrollo lo que despues seria conocido el sifrado de cesar.La idea detras de este cifrado es simple.y como resultado no tiene porteccion contra las tecnicas modernas de jaqueo.Cada letra en el mensaje original se mueve tres lugares. como resultado A se convierte en D, B se convierte en E, C se converte en F, D se convierte en G, etc.Las ultimas tres letras del alfabeto se mueven al inicio es decir,X se convierte en A, Y se convierte en B, Z se convierte en C.Escriba un programa que implemente el cifrado cesar.Permita que el usuario inserte el mensaje y la cantidad de espacios a moverse,Y despues despliege el mensaje movido.Su programa debe de soportar letras mayusculas y minusculas.Su programa tambien debe soportar movimientos con valor negativos, de tal manera que los mensajes se puedan cifrar y desifrar.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio70.py
+
+## EJERCICIO 71
+Escriba un programa que implemente el método de Newton para calcular y mostrar la raíz cuadrada de un número ingresado por el usuario. El algoritmo para el método de Newton sigue:Leer x del usuarioInicializar adivinar    x / 2Mientras que adivinar no es lo suficientemente buenoActualizar conjetura para que sea el promedio de conjetura y x / conjeturaCuando se completa este algoritmo, supongo que contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre conjetura ∗ conjetura y x era menor o igual a 10^-12.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio71.py
+
+## EJERCICIO 72
+Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo, "anna", "civic", "level" y "hannah" son ejemplos de palabras palindrómicas. Escriba un programa que lea una cadena del usuario y use un bucle para determinar si es o no un palíndromo. Muestra el resultado, incluido un mensaje de salida significativo.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio72.py
+
+## EJERCICIO 73
+Existen numerosas frases que son palíndromos cuando se ignora el espacio. Los ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve notas", entre muchos otros. Extienda su solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cuerda es o no un palíndromo. Para un desafío adicional, extienda su solución para que también ignore los signos de puntuación y trate las letras mayúsculas y minúsculas como equivalentes.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio73.py
+
+## EJERCICIO 74
+En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
+| |1|2|3|4|5|6|7|8|9|10|
+|1|1|2|3|4|5|6|7|8|9|10|
+|2|2|4|6|8|10|12|14|16|18|20|
+|3|3|6|9|12|15|18|21|24|27|30|
+|4|4|8|12|16|20|24|28|32|36|40|
+|5|5|10|15|20|25|30|35|40|45|50|
+|6|6|12|18|24|30|36|42|48|54|60|
+|7|7|14|21|28|35|42|49|56|63|70|
+|8|8|16|24|32|40|48|56|64|72|80|
+|9|9|18|27|36|45|54|63|72|81|90|
+|10|10|20|30|40|50|60|70|80|90|100|
+Al completar este ejercicio, probablemente le sea útil poder imprimir un valor sin pasar a la siguiente línea. Esto se puede lograr agregando end = " " como el último parámetro a su declaración de impresión. Por ejemplo, print ("A") mostrará la letra A y luego bajará a la siguiente línea. La instrucción de impresión ("A", end = "") mostrará la letra A sin moverse a la línea siguiente, haciendo que la siguiente instrucción de impresión muestre su resultado en la misma línea que la letra A.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio74.py
+
+## EJERCICIO 75
+El máximo común divisor de dos enteros positivos, n y m, es el número más grande, d, que se divide uniformemente en n y m. Existen varios algoritmos que pueden usarse para resolver este problema, que incluyen: Inicialice d al menor de m y n. while d no divide equitativamente m o d no divide equitativamente n do Disminuya el valor de d en 1 Informe d como el máximo divisor común de n y m Escriba un programa que lea dos enteros positivos del usuario y use este algoritmo para determinar e informar su máximo divisor común.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio75.py
+
+## EJERCICIO 76
+La factorización prima de un número entero, n, se puede determinar utilizando los siguientes pasos: Inicializar factor a dos while el factor es menor o igual que n do if n es divisible uniformemente por factor, then Concluir que el factor es un factor de n Divide n por factor usando la división entera else Aumenta el factor en uno Escriba un programa que lea un número entero del usuario. Si el valor ingresado por el usuario es menor que 2, entonces su programa debería mostrar un mensaje de error apropiado. De lo contrario, su programa debería mostrar los números primos que se pueden multiplicar para calcular n, con un factor que aparece en cada línea. 
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio76.py
+
+## EJERCICIO 77
+Escriba un programa que convierta un número binario (base 2) a decimal (base 10). Su programa debe comenzar leyendo el número binario del usuario como una cadena. Luego, debe calcular el número decimal equivalente procesando cada dígito en el número binario. Finalmente, su programa debe mostrar el número decimal equivalente con un mensaje apropiado.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio77.py
+
+## EJERCICIO 78
+Escriba un programa que convierta un numero decimal (base 10) que inserte un usuario como numero entero
+y después use el algoritmo de división mostrado para realizar la conversión. 
+Cuando el algoritmo se complete el resultado deberá contener la representación del numero en binario. 
+Después se deberá desplegar el resultado con el mensaje apropiado.
+Sea resultado una variable string vacía.
+Sea “q” un numero entero a convertir
+Repetir:
+Sea “r” igual al residuo cuando “q” es dividido entre 2.
+Convertir “r” a string y agregándolo al comienzo de resultado
+Dividir “q” entre 2 , eliminar cualquier residuo y guardar el resultado de nuevo en “q”
+Hasta que “q” sea cero.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio78.py
+
+## EJERCICIO 79
+Este ejercicio examina el proceso de identificación del valor máximo en una colección de enteros. 
+Cada uno de los enteros se seleccionará aleatoriamente de los números entre 1 y 100. 
+La colección de enteros puede contener valores duplicados, y algunos de los enteros entre 1 y 100 pueden no estar presentes.
+Tómese un momento y piense cómo manejaría este problema en papel. 
+Muchas personas verifican cada número entero en secuencia y se preguntan si el número que están considerando actualmente es mayor que el número más grande que han visto anteriormente. 
+Si es así, se olvidan del número máximo anterior y recuerdan el número actual como el nuevo número máximo. Este es un enfoque razonable y dará como resultado la respuesta correcta cuando el proceso se realice con cuidado. 
+Si realizara esta tarea, ¿cuántas veces esperaría necesitar actualizar el valor máximo y recordar un nuevo número?
+Si bien podemos responder a la pregunta planteada al final del párrafo anterior utilizando la teoría de la probabilidad, vamos a explorarla simulando la situación. Cree un programa que comience seleccionando un número entero aleatorio entre 1 y 100. 
+Guarde este número entero como el número máximo encontrado hasta ahora. Después de que se haya seleccionado el entero inicial, genere 99 enteros aleatorios adicionales entre 1 y 100. 
+Verifique cada entero tal como se genera para ver si es mayor que el número máximo encontrado hasta ahora. Si es así, su programa debería actualizar el número máximo encontrado y contar el hecho de que realizó una actualización. 
+Muestra cada número entero después de generarlo. Incluya una notación con esos enteros que representan un nuevo máximo.
+Después de haber mostrado 100 enteros, su programa debería mostrar el valor máximo encontrado, 
+junto con la cantidad de veces que el valor máximo se actualizó durante el proceso. La salida parcial para el programa se muestra a continuación, con ... representando los enteros restantes que mostrará su programa. 
+Ejecute su programa varias veces. ¿Es la cantidad de actualizaciones realizadas en el valor máximo lo que esperaba?
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio79.py
+
+## EJERCICIO 80
+¿Cuál es el número mínimo de veces que tiene que lanzar una moneda antes de poder 
+tener tres lanzamientos consecutivos que den como resultado el mismo resultado (o los tres son sol o los tres son cruz? 
+¿Cuál es el número máximo de volteos que podrían ser necesarios? ¿Cuántas vueltas se necesitan en promedio? 
+En este ejercicio exploraremos estas preguntas creando un programa que simule varias series de lanzamientos de monedas.
+Cree un programa que use el generador de números aleatorios de Python para simular lanzar una moneda varias veces. 
+La moneda simulada debe ser justa, lo que significa que la probabilidad de sol es igual a la probabilidad de cruz. 
+Su programa debe voltear monedas simuladas hasta que ocurran 3 sol consecutivas de 3 cruz consecutivas. 
+Muestre una S cada vez que el resultado sea sol, y una C cada vez que el resultado sea cruz, con todos los resultados mostrados en la misma línea. 
+Luego muestre el número de vueltas necesarias para alcanzar 3 vueltas consecutivas con el mismo resultado. 
+Cuando se ejecuta su programa, debe realizar la simulación 10 veces e informar el número promedio de vueltas necesarias.
+La salida de muestra se muestra a continuación:
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio80.py
+
+## EJERCICIO 81
+Eescribir una funcion que tome la longitud de los dos lados mas cortos de un triangulo rectangulo como argumentos.
+La funcion debe de regresar la hipotenusa del triangulo calculado usando el teorema de pitagoras como resultado.
+Incluya un programa principal que lea las longitudes de los lados mas cortos de un tringulo rectangulo insertados por el usuario.
+Usando la funcion para calcular la longiutd de la hipotenusa y que tambien se despliege el resultado.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio81.py
+
+## EJERCICIO 82
+En la ciudad de mexico la taria fe taxi uber consiste en un precio base de $44 pesos mas $12 pesos por cada kilometro recorrido
+Escriba una funcion que tome la distancia viajada (en km)
+El cual debe ser el unico argumento y regrese la tarifa total como resultado.
+Escriba un programa principal que demuestre la funcion.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio82.py
+
+## EJERCICIO 83
+Amazon probee envio expres para muchos de sus prodcutos a un costo de $195 pesos por el primer productoy de $29.50 para cada producto subsecuente. Escriba una funcion que tome el numero de productos como su unico argumento. Regrese el costo de envio total como el resultado de la funcion. Incluya un programa principal que lea el numero de productos comprados por el usuario y que desplieje el costo total de envio.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio83.py
+
+## EJERCICIO 84
+Escriba una función que tome tres números como parámetros y devuelva el valor medio de esos parámetros como resultado. 
+Incluya un programa principal que lea tres valores del usuario y muestre su mediana.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio84.py
+
+## EJERCICIO 85
+convertir un entero a un numero cardinal. 
+las palabras como primero segundo tercero y cuarto, son llamados tambien como numeros cardinales
+en este ejercicio debe describir una funcion que tome un numero entero como su unico parametro y regrese una cadena de caracteres.
+con la palabra cardinal del numero entereo insertado.
+su funcion debe manejar los numeros entero entre el 1 y el 12
+y debe regresar su correspondiente en numero cardinal.
+Incluya un programa principal que demuestre su funcion desplegando cada entero del 1 al 12 y su numero cardinal.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio85.py
+
+## EJERCICIO 86
+Los doce días de Navidad es una canción repetitiva que describe una lista cada vez más larga de regalos enviados 
+al verdadero amor de cada uno de los 12 días. Se envía un único regalo el primer día. 
+Se agrega un nuevo regalo a la colección cada día adicional, y luego se envía la colección completa. 
+Los primeros tres versos de la canción se muestran a continuación.
+Las letras completas están disponibles en internet.
+En el primer día de navidad
+mi verdadero amor me envió:
+Una perdiz en un peral.
+En el segundo día de navidad
+mi verdadero amor me envió:
+Dos tórtolas,
+Y una perdiz en un peral.
+En el tercer día de navidad
+mi verdadero amor me envió:
+Tres gallinas francesas
+Dos tórtolas,
+Y una perdiz en un peral.
+Su tarea es escribir un programa que muestre la letra completa de Los doce días de Navidad. 
+Escriba una función que tome el número de verso como su único parámetro y muestre el verso especificado de la canción. 
+Luego llame a esa función 12 veces con números enteros que aumentan de 1 a 12.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio86.py
+
+## EJERCICIO 87
+Escriba una función que tome una cadena de caracteres como su primer parámetro, 
+y el ancho de la terminal en caracteres como su segundo parámetro. 
+Su función debe devolver una nueva cadena que consta de la cadena original y el número correcto de espacios iniciales 
+para que la cadena original aparezca centrada dentro del ancho proporcionado cuando se imprima. 
+No agregue ningún carácter al final de la cadena. Incluya un programa principal que demuestre su función.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio87.py
+
+## EJERCICIO 88
+Si tiene 3 pajitas, posiblemente de diferentes longitudes, puede o no ser posible colocarlas para que formen un triángulo cuando sus extremos se toquen. Por ejemplo, si todas las pajitas tienen una longitud de 6 pulgadas. entonces uno puede construir fácilmente un triángulo equilátero con ellos. Sin embargo, si un popote es de 6 pulgadas. largo, mientras que los otros dos son cada uno de solo 2 pulgadas. largo, entonces no se puede formar un triángulo. En general, si una longitud es mayor o igual que la suma de las otras dos, las longitudes no se pueden usar para formar un triángulo. De lo contrario, pueden formar un triángulo.Escribe una función que determine si tres longitudes pueden o no formar un triángulo. La función tomará 3 parámetros y devolverá un resultado booleano. Además, escriba un programa que lea 3 longitudes del usuario y demuestre el comportamiento de esta función.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio88.py
+
+## EJERCICIO 89
+Muchas personas no usan letras mayúsculas correctamente, especialmente cuando escriben en dispositivos pequeños como teléfonos inteligentes. En este ejercicio, escribirá una función que capitaliza los caracteres apropiados en una cadena. Una "i" minúscula debe reemplazarse por una "I" mayúscula si está precedida y seguida de un espacio. El primer carácter de la cadena también debe estar en mayúscula, así como el primer carácter sin espacio después de un ".", "!" O "?". Por ejemplo, si la función se proporciona con la cadena "¿a qué hora tengo que estar allí? ¿Cuál es la dirección? ", entonces debería devolver la cadena" ¿A qué hora tengo que estar allí? ¿Cuál es la dirección?". 
+Incluya un programa principal que lea una cadena del usuario, la capitalice utilizando su función y muestre el resultado.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio89.py
+
+## EJERCICIO 90
+En este ejercicio, escribirá una función llamada es_entero 
+que determina si los caracteres en una cadena representan un número entero válido. 
+Al determinar si una cadena representa un número entero, debe ignorar cualquier espacio en blanco inicial o final. 
+Una vez que se ignora este espacio en blanco, 
+una cadena representa un número entero si su longitud es al menos 1 y solo contiene dígitos, 
+o si su primer carácter es + o - y el primer carácter es seguido por uno o más caracteres, todos los cuales Son dígitos.
+Escriba un programa principal que lea una cadena del usuario e informe si representa o no un número entero. 
+Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio90.py
+
+## EJERCICIO 91
+Escriba una función llamada precedencia que devuelva un número entero que represente la precedencia de un operador matemático. 
+Una cadena que contiene el operador se pasará a la función como su único parámetro. 
+Su función debe devolver 1 para + y -, 2 para * y /, y 3 para ˆ. 
+Si la cadena que se pasa a la función no es uno de estos operadores, la función debería devolver -1. 
+Incluya un programa principal que lea un operador del usuario y muestre la precedencia del operador 
+o un mensaje de error que indique que la entrada no era un operador. 
+Su programa principal solo debe ejecutarse cuando el archivo que contiene su solución no se ha importado a otro programa
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio91.py
+
+## EJERCICIO 92
+#Un número primo es un número entero mayor que 1 que solo es divisible por uno y por sí mismo. 
+#Escriba una función que determine si su parámetro es primo o no, 
+#devolviendo True si lo es y False en caso contrario. 
+#Escriba un programa principal que lea un número entero del usuario y muestre un mensaje que indique si es primo o no. 
+#Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio92.py
+
+## EJERCICIO 93
+En este ejercicio creará una función llamada nextPrime que encuentra y 
+devuelve el primer número primo mayor que algún entero, n. 
+El valor de n se pasará a la función como su único parámetro. 
+Incluya un programa principal que lea un número entero del usuario y 
+muestre el primer número primo mayor que el valor ingresado. 
+Importe y use su solución para el Ejercicio 92 mientras completa este ejercicio.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio93.py
+
+## EJERCICIO 94
+Escribe una función que genere una contraseña aleatoria. 
+La contraseña debe tener una longitud aleatoria de entre 7 y 10 caracteres. 
+Cada personaje debe seleccionarse al azar de las posiciones 33 a 126 en la tabla ASCII. 
+Su función no tomará ningún parámetro. Devolverá la contraseña generada aleatoriamente como su único resultado. 
+Muestra la contraseña generada aleatoriamente en el programa principal de tu archivo.
+Su programa principal solo debe ejecutarse cuando su solución no se haya importado a otro archivo.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio94.py  
+
+## EJERCICIO 95
+En una jurisdicción particular, las matrículas más antiguas consisten en tres letras seguidas de tres números. 
+Cuando se utilizaron todas las placas que siguen ese patrón, el formato se cambió a cuatro números seguidos de tres letras.
+Escriba una función que genere una matrícula aleatoria. 
+Su función debe tener una probabilidad aproximadamente igual de generar una secuencia de caracteres para una placa anterior o una nueva. 
+Escriba un programa principal que llame a su función y muestre la placa generada al azar.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio95.py
+
+## EJERCICIO 96
+En este ejercicio escribirá una función que determina si una contraseña es buena o no. 
+Definiremos una buena contraseña para que tenga una longitud de al menos 8 caracteres y contenga al menos una letra mayúscula, 
+al menos una letra minúscula y al menos un número. Su función debe devolver verdadero si la contraseña que se le pasó, 
+ya que su único parámetro es bueno. De lo contrario, debería devolver falso. 
+Incluya un programa principal que lea una contraseña del usuario e informe si es buena o no. 
+Asegúrese de que su programa principal solo se ejecute cuando su solución no se haya importado a otro archivo.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio96.py
+
+## EJERCICIO 97
+Usando sus soluciones para los Ejercicios 94 y 96, escriba un programa que genere una buena contraseña aleatoria y la muestre. 
+Cuente y muestre el número de intentos necesarios antes de que se generara una buena contraseña. 
+Estructura tu solución para que importe las funciones que escribiste anteriormente y 
+luego las llame desde una función llamada main en el archivo que crees para este ejercicio.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio97.py
+
+## EJERCICIO 98
+Escriba dos funciones, hex2int e int2hex, que conviertan entre dígitos hexadecimales 
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F) y enteros de base 10 . 
+La función hex2int es responsable de convertir una cadena que contiene un solo dígito hexadecimal en un entero de base 10, 
+mientras que la función int2hex es responsable de convertir un entero entre 0 y 15 en un solo dígito hexadecimal. 
+Cada función tomará el valor para convertir como su único parámetro y devolverá el valor convertido como el único resultado de la función. 
+Asegúrese de que la función hex2int funcione correctamente para letras mayúsculas y minúsculas. 
+Sus funciones deberían finalizar el programa con un mensaje de error significativo si se proporciona un parámetro no válido.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio98.py
+
+## EJERCICIO 99
+Escriba un programa que permita al usuario convertir un número de una base a otra. 
+Su programa debe admitir bases entre 2 y 16 tanto para el número de entrada como para el número de resultado. 
+Si el usuario elige una base fuera de este rango, se debe mostrar un mensaje de error apropiado y el programa debe salir. 
+Divida su programa en varias funciones, incluida una función que convierte de una base arbitraria a una base 10, 
+una función que convierte de una base 10 a una base arbitraria y un programa principal que lee las bases y el número de entrada del usuario.
+Puede encontrar sus soluciones a los ejercicios 77, 78 y 98 útiles al completar este ejercicio.
+
+https://github.com/Ulisessoft/progAvanzada/blob/master/ejercicio99.py
+
+## EJERCICIO 100
+Escriba una función que determine cuántos días hay en un mes en particular. 
+Su función tomará dos parámetros: el mes como un número entero entre 1 y 12, y el año como un número entero de cuatro dígitos. 
+Asegúrese de que su función informa el número correcto de días en febrero para los años bisiestos. 
+Incluya un programa principal que lea un mes y un año del usuario y muestre la cantidad de días en ese mes. 
+Puede encontrar útil su solución para el ejercicio 57 al resolver este problema.
+
